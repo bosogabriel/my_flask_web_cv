@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flask Tutorial</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"></link>
+  </head>
+  <body>
+      <div class="topPane">
+        {% for item in index %}
+        <div class="indexButton">{{item}}</div>  
+        {% endfor%}
+      </div>
+      {% for num in nums %}
+      <h1>{{num}}</h1>
+      {% endfor%}
+  </body>
+</html>
