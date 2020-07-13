@@ -2186,6 +2186,11 @@ textarea.form-control {
   margin-left: 0;
 }
 
+#contactForm {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
 .valid-feedback {
   display: none;
   width: 100%;
@@ -2912,11 +2917,11 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #1abc9c;
+  color: #f8f9fa;
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #117964;
+  color: #343a40;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -10396,7 +10401,6 @@ form .row:first-child .floating-label-form-group {
 }
 .timeline-box:hover{
   background-color:#1abc9c;
-  border-radius:0px;
   border:1px solid #17191B;
   transition:all 0.3s ease;
 }
@@ -10422,7 +10426,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .box-content strong{
-  color:#666;
+  color:#d0dbe5;
   font-style:italic;
   margin-right:5px;
 }
@@ -10432,11 +10436,16 @@ form .row:first-child .floating-label-form-group {
 }
 
 .box-footer{
- padding:5px 15px;
+  padding:5px 15px;
   border-top: 1px solid #17191B;
   background-color:transparent;
   text-align:right;
   font-style:italic;
 }
 
- 
+#wrapper {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
