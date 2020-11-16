@@ -1,17 +1,25 @@
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
 from jinja2 import Template, Environment, PackageLoader, select_autoescape
+import json
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///site.db'
+
+with open("./static/experience.json") as f:
+    XP=json.load(f)
+
 env = Environment(
     loader=PackageLoader('app', 'templates'),
     autoescape=select_autoescape(['html', 'xml'])
 )
 template = Template('Hello {{ name }}!')
-app = Flask(__name__)
 
 @app.route("/")
 def home():
     nums=range(6)
     index=['Inicio','Experiencia','Proyectos','Metricas']
-    return render_template("index.html", nums=nums, index=index)
+    return render_template("index.html", experience=XP)
 
 @app.route("/experience")
 def experience():

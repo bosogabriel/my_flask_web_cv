@@ -1,0 +1,74 @@
+[
+    {
+        "to":"Today",
+        "from":"2019-08-01",
+        "Enterprise":"Elementum",
+        "Title":"Implementation and Data Engineering - Technical Lead",
+        "Description":"Define architecture guidelines to have a cost effective processes\nPlan and execute alongside the team integrations with manufacture and inventory apps\nManagement of team capacity and development of new members\nDrive initiatives to motivate and increase teams technical knowledge\nProjects: Whatsapp & Telegram chatbots, EDI parser, Connectors & Ingestors Config Automation",
+        "Type":"Full Time",
+        "Location":"CABA,ARG"
+    },
+    {
+        "to":"2019-08-01",
+        "from":"2018-03-01",
+        "Enterprise":"Elementum",
+        "Title":"Implementation and Data Engineering",
+        "Description":"Develop ETL process for Flat File, XML, CSV, EDI files with Boomi, Groovy, Python and MySQL Stored Procedures\nDefine and design processes to upload complementary information with MySQL.\nPerformance analysis and debugging.\nDefine and develop KPI for accounts processes using Python and Tableau environment.",
+        "Type":"Full Time",
+        "Location":"CABA,ARG"
+    },
+    {
+        "to":"Today",
+        "from":"2018-03-01",
+        "Enterprise":"UTN FRBA",
+        "Title":"Operational Research Assistant Profesor",
+        "Description":"Operational Research course\n- Markov Processes\n- Queuing systems\n- Optimization and Linear Programming\n- Simulation\n- Quantitative stock systems",
+        "Type":"Part Time",
+        "Location":"CABA,ARG"
+    },
+    {
+        "to":"2018-03-01",
+        "from":"2017-04-01",
+        "Enterprise":"Emergencias",
+        "Title":"Operations BI Analyst",
+        "Description":"-SQL to QlikSense (qvd) data transformation.\n-Optimal resources calculation through statistical models using Qlik Sense environment.\n-Statistical analysis and mathematic models for KPIs calculation and forecasting",
+        "Type":"Full Time",
+        "Location":"CABA,ARG"
+    },
+    {
+        "to":"2017-04-01",
+        "from":"2016-02-01",
+        "Enterprise":"HellermanTyton",
+        "Title":"Senior Supply Chain Analyst",
+        "Description":"-Mapping of operations and product flow.\n-Documentation of current and future business model considering WMS and CRM implementations.\n-Product Master SKU database correction (1600 SKU).\n-Implementation of postgresql database and Access application development.\n-Accountable for new product registration process.\n-Development of supply chain platform through postgresql, access and excel (powerpivot, macros).\n-COMEX cost standardization.",
+        "Type":"Full Time",
+        "Location":"Buenos Aires,ARG"
+    },
+    {
+        "to":"2016-02-01",
+        "from":"2015-08-01",
+        "Enterprise":"Elementum",
+        "Title":"Production Planner",
+        "Description":"-Production Master Plan for hydro-alcoholic products.\n-Daily plan for each hydro-alcoholic production line (6 lines).\n-Presentation of status vs plan and course of actions to achieve goals daily and monthly goals.\n-Constant interaction with Warehouse and Procurement to guarantee the supplies of each production line.\n-Stock shortage root cause analysis.",
+        "Type":"Full Time",
+        "Location":"Buenos Aires,ARG"
+    },
+    {
+        "to":"2015-08-01",
+        "from":"2014-10-01",
+        "Enterprise":"Massalin Particulares S.A.",
+        "Title":"Indirect Materials & Supplies Intern",
+        "Description":"-2014 Expense Analysis for each team and Category, identifying cost and process improvement opportunities for 2015.\n-Development of tools to measure IM&S Contributions and Purchase Automation (KPIs).\n-Development of control panel with Procurement KPIs.\n-Mapping and correction of acquisition process for imported goods and services, due to new legal regulations.\n-Various reports at local and regional level.",
+        "Type":"Part Time",
+        "Location":"Buenos Aires,ARG"
+    },
+    {
+        "to":"2014-10-01",
+        "from":"2014-04-01",
+        "Enterprise":"SEHOS S.A.",
+        "Title":"Maintenance Purchaser",
+        "Description":"-Control of fixed funds\n-Vendors incorporation\n-Materials and services acquisition for building maintenance\n-Development of purchasing follow up tool on excel",
+        "Type":"Full Time",
+        "Location":"CABA,ARG"
+    }
+]

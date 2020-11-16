@@ -67,8 +67,9 @@
                 <!-- Experience Grid Items-->
                 <div class="container">
                     <div class="timeline">
-                      <div class="timeline-month">
-                        Today
+                    {% for xp in experience %}                        
+                    <div class="timeline-month">
+                        {{xp.to}}
                         <span>8.5 years</span>
                       </div>
                       <div class="timeline-section">
@@ -76,13 +77,13 @@
                           <div class="col-sm-4">
                             <div class="timeline-box">
                               <div class="box-title ">
-                                <i class="fa fa-cogs text-info" aria-hidden="true"></i> Data Engineer - Tech Lead
+                                <i class="fa fa-cogs text-info" aria-hidden="true"></i> {{xp.Title}}
                               </div>
                               <div class="box-content">
                                 <a class="btn btn-primary btn-xs pull-right" >Details</a>
-                                <div class="box-item"><strong>Enterprise</strong>: Elementum SCM</div>
-                                <div class="box-item"><strong>End Date</strong>: -</div>
-                                <div class="box-item"><strong>Start Date</strong>: 2019-08-01</div>
+                                <div class="box-item"><strong>Enterprise</strong>: {{xp.Enterprise}}</div>
+                                <div class="box-item"><strong>End Date</strong>: {{xp.to}}</div>
+                                <div class="box-item"><strong>Start Date</strong>: {{xp.from}}</div>
                               </div>
                               <div class="box-footer">
                                   <i class="devicon-amazonwebservices-original btn btn-xs btn-link" data-toggle="tooltip" title="AWS"></i>
@@ -105,7 +106,8 @@
                   
                         </div>
                   
-                      </div>
+                     </div>
+                      {% endfor%}
                   
                       <div class="timeline-section">
                         <div class="timeline-date">
@@ -130,7 +132,7 @@
                           <div class="col-sm-4">
                             <div class="timeline-box">
                               <div class="box-title">
-                                <i class="fa fa-tasks text-primary" aria-hidden="true"></i> New Job To Do
+                                <i class="fa fa-tasks text-primary" aria-hidden="true"></i>asdasd
                               </div>
                               <div class="box-content">
                                 <a class="btn btn-xs btn-default pull-right">Details</a>
